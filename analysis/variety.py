@@ -27,7 +27,7 @@ if __name__ == '__main__':
             batch_wise_result.append(item)
         prop_wise_result.append(batch_wise_result)
 
-    if not os.path.exists(args.path_to_save):
-        os.makedirs(args.path_to_save)
+    if not os.path.exists(args.path_to_save + args.model_name + '/'):
+        os.makedirs(args.path_to_save + args.model_name + '/')
         
-    util_plotter.variety_plot(prop_wise_result, args.path_to_save + args.model_name + '.png')
+    util_plotter.variety_plot(prop_wise_result, args.path_to_save + args.model_name + '/' + args.current_prop + '.png')
