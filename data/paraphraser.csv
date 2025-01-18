@@ -1,0 +1,144 @@
+,prop,question,paraphrases,constraint_tokens
+0,genre,['What genre is <MASK>?'],"[
+""What category does <MASK> belong to?"",
+ ""What kind of classification does <MASK> fall under?"",
+""What type does <MASK> fall under?"",
+""What group does <MASK> fall under?"",
+""What kind does <MASK> fall under?"",
+""What class does <MASK> fall under?"",
+""What style can <MASK> be categorized into?"",
+""Which division does <MASK> come under?"",
+""In what bracket does <MASK> reside?"",
+""What domain does  <MASK> fit within?""
+]","[['category'], ['kind', 'of', 'classification'], ['type'], ['group'], ['kind'], ['class'], ['style'], ['division'], ['bracket'], ['domain']]"
+1,religion,['What is the religion of <MASK>?'],"[""What is the religion of <MASK>?"",
+""What faith does <MASK> follow?"",
+""What is the religious affiliation of <MASK>?"",
+""Which religious doctrine does <MASK> subscribe to?"",
+""What theology is <MASK> aligned with?"",
+""What is the religious identity of <MASK>?"",
+""What belief system does <MASK> ascribe to?"",
+""What religious school of thought does <MASK> follow?"",
+""What is <MASK>'s spirituality?"",
+""What is the religious allegiance of <MASK>?"",
+]","[['religion'], ['faith'], ['religious', 'affiliation'], ['religious', 'doctrine'], ['theology'], ['religious', 'identity'], ['belief', 'system'], ['religious', 'school', 'of', 'thought'], ['spirituality'], ['religious', 'allegiance']]"
+2,author,['Who is the author of <MASK>?'],"[
+""Who is the author of <MASK>?""
+""Who wrote <MASK>?"",
+""Who is responsible for penning <MASK>?"",
+""Who holds authorship of <MASK>?"",
+""Who is responsbile for making <MASK>?"",
+""Who is linked to the creation of <MASK>?"",
+""Who is the figure associated with <MASK>?"",
+""Who is recognized for bringing about <MASK>?"",
+""Who is acknowledged for the production of <MASK>?"",
+""Who is the mind that conceived <MASK>?""
+]",
+3,mother,['Who is the mother of <MASK>?'],"[
+""Who is the mother of <MASK>?"",
+""Who gave birth to <MASK>?"",
+""Who is <MASK>'s female parent?"",
+""Who is credited with mothering <MASK>?"",
+""Who is known as <MASK>'s motherly figure?"",
+""Who is the one who gave life to <MASK>?"",
+""Who is the person linked to <MASK>'s motherhood?"",
+""Who is the maternal influence in <MASK>'s existence?"",
+""Who is the woman responsible for <MASK>'s upbringing?"",
+""Who is the mom of <MASK>?""
+]",
+4,occupation,['What is <MASK>'s occupation?'],"[
+""What does <MASK> do for a living?"",
+""What is <MASK>'s occupation?"",
+""What is <MASK>'s profession?"",
+""What is <MASK>'s line of work?"",
+""What job role is <MASK> engaged in?"",
+""What career path has <MASK> chosen?"",
+""What field of employment is <MASK> part of?"",
+""What is <MASK>'s source of professional engagement?"",
+""What is <MASK>'s vocational pursuit?"",
+""What field of work is <MASK> engaged in?""
+]","[['living'], ['occupation'], ['profession'], ['line', 'of', 'work'], ['job', 'role'], ['career', 'path'], ['field', 'of', 'employment'], ['professional', 'engagement'], ['vocational', 'pursuit'], ['field', 'of', 'work']]"
+5,father,['Who is the father of <MASK>?'],"[
+""Who is the father of <MASK>?"",
+""Who is <MASK>'s paternal parent?"",
+""Who can be identified as the male progenitor of <MASK>?"",
+""Which person is recognized as <MASK>'s paternal figure?"",
+""Who fulfills the role of father for <MASK>?"",
+""What individual is known to be <MASK>'s male parent?"",
+""Who is the dad of <MASK>?"",
+""Who is <MASK>'s paternal caregiver?"",
+""Whom does <MASK> consider to be their father?"",
+""Who takes on the role of <MASK>'s paternal caretaker?""
+]",
+6,capital,['What is the capital of <MASK>?'],"[
+""What is the capital of <MASK>?"",
+""What is the primary city in <MASK>?"",
+""Which urban center holds a central role in <MASK>?"",
+""Which city houses the main government of <MASK>?"",
+""What city is the main administrative center of <MASK>?"",
+""What urban area holds the capital status of <MASK>?"",
+""Which city is the political focal point of <MASK>?"",
+""Which city is the primary seat of authority for <MASK>?"",
+""What is the principal city of <MASK>?"",
+""What is the chief city of <MASK>?""
+]","[['capital'], ['primary', 'city'], ['urban', 'center', 'central', 'role'], ['city', 'houses', 'the', 'main', 'government'], ['main', 'administrative', 'center'], ['urban', 'area', 'capital', 'status'], ['political', 'focal', 'point'], ['primary', 'seat', 'of', 'authority'], ['principal', 'city'], ['chief', 'city']]"
+7,color,['What color is <MASK>?'],"[
+""What color is <MASK>?"",
+""What hue does <MASK> possess?"",
+""What shade is associated with <MASK>?"",
+""What tint does <MASK> exhibit?"",
+""What chroma does <MASK> display?"",
+""What coloration is observed in <MASK>?"",
+""What coloring is evident in <MASK>?"",
+""Which tinge is associated with <MASK>?"",
+""What color is <MASK> identified with?"",
+""Which color pallette is associated with <MASK>?""
+]","[['color'], ['hue'], ['shade'], ['tint'], ['chroma'], ['coloration'], ['coloring'], ['tinge'], ['color'], ['color', 'pallette']]"
+8,place of birth,['In what city was <MASK> born?'],"[
+""In what city was <MASK> born?"",
+""What is the birthplace of  <MASK>?"",
+""What locality did <MASK> come into the world?"",
+""What city witnessed the birth of <MASK>?"",
+""In which urban area was <MASK> brought into existence?"",
+""In what geographical location was <MASK> born?"",
+""What urban district can be attributed as <MASK>'s birth site?"",
+""In what city did <MASK>'s life commence?"",
+""At what urban area did <MASK> start life?"",
+""In what metropolis did <MASK> first see the light of day?""
+]",
+9,screenwriter,['Who was the screenwriter for <MASK>?'],"[
+""Who was the screenwriter for <MASK>?"",
+""Who wrote the screenplay for <MASK>?"",
+""Who was the scribe of the screenplay in <MASK>?"",
+""Who took on the role of crafting <MASK>'s script?"",
+""Who was responsible for composing the screenplay of <MASK>?"",
+""Who was the wordsmith behind the screenplay of <MASK>?"",
+""Who penned the script for <MASK>?"",
+""Who authored the screenplay of <MASK>?"",
+""Who was the primary influencer in shaping <MASK>'s screenplay composition?"",
+""Who scripted <MASK>'s story?""
+]","[['screenwriter'], ['wrote', 'the', 'screenplay'], ['scribe', 'of', 'the', 'screenplay'], ['role', 'of', 'crafting'], ['composing', 'the', 'screenplay'], ['wordsmith', 'behind', 'the', 'screenplay'], ['penned', 'the', 'script'], ['authored', 'the', 'screenplay'], ['screenplay', 'composition'], ['scripted']]"
+10,composer,['Who was the composer of <MASK>?'],"[
+""Who was the composer of <MASK>?"",
+""Who was the author of the music for <MASK>?"",
+""Who was responsible for creating musical arrangement in <MASK>?"",
+""Who was at the forefront of designing the musical elements in <MASK>?"",
+""Who was the architect of the musical composition for <MASK>?"",
+""Who crafted the melody for <MASK>?"",
+""Who was the architect of the musical composition in <MASK>?"",
+""Who was the originator of the musical score for <MASK>?"",
+""Who provided the creative input for <MASK>'s musical design?"",
+""Who was at the helm of crafting the musical soundscape for <MASK>?""
+]",
+11,sport,['What sport does <MASK> play'],"[
+""What sport does <MASK> play?"",
+""What athletic activity does <MASK> participate in?"",
+""What game does <MASK> compete in?"",
+""What field of sports is <MASK> involved with?"",
+""Which athletic endeavour does <MASK> pursue?"",
+""What physical activity does <MASK> perform as a sport?"",
+""What recreational sport does <MASK> enjoy?"",
+""What sport does <MASK> enjoy playing?"",
+""What professional sport does <MASK> play?"",
+""What game does <MASK> actively participate in?""
+]","[['sport'], ['athletic', 'activity'], ['game'], ['field', 'of', 'sports'], ['athletic', 'endeavour'], ['physical', 'activity'], ['recreational', 'sport'], ['sport'], ['professional', 'sport'], ['game']]"
